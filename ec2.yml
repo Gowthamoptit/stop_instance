@@ -8,6 +8,6 @@
     local_action:
        module: ec2
        region: us-east-2
-       instance_ids: ['']
+       instance_ids: ['i-0624787262e1f73ba']
        state: running
 ...
