@@ -1,0 +1,13 @@
+---
+- host: webservers
+  tasks:
+  - name: Gatherfacts
+    action: ec2_facts
+    
+  - name: stop myserver instance
+    local_action:
+       module: ec2
+       region: us-east-2
+       instance_ids: ['']
+       state: running
+...
