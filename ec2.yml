@@ -8,5 +8,5 @@
        module: ec2
        region: us-east-2
        instance_ids: ['i-0f4744aa38a9f97c7']
-       state: running
+       state: stopped
 ...
