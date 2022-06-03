@@ -2,6 +2,6 @@
 - hosts: localhost
   gather_facts: true
   become: true
-  roles:
+  tasks:
     include: main.yml
 ...
