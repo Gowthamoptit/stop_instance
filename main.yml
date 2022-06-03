@@ -1,5 +1,4 @@
 ---
- tasks:
   - name: stop myserver instance
     local_action:
        module: ec2
