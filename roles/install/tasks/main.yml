@@ -1,0 +1,8 @@
+---
+  - name: stop myserver instance
+    local_action:
+       module: ec2
+       region: "{{ region }}"
+       instance_ids: "{{ instance_ids }}"
+       state: "{{ state }}"
+...
