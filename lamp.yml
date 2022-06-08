@@ -1,6 +1,7 @@
 ---
 - name: installing lamp
-  hosts: webservers
+  hosts: localhost
+  connection: local
   gather_facts: true
   become: true
   tasks:
